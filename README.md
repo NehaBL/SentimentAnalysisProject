@@ -16,3 +16,26 @@ This project performs sentiment analysis using machine learning and a TF-IDF vec
 1. Clone the repository:
    ```bash
    git clone https://github.com/NehaBL/SentimentAnalysisProject.git
+   ## Running the Project
+
+### Jupyter Notebook
+To run the Jupyter Notebook:
+1. Open the notebook:
+   ```bash
+   jupyter notebook SentimentAnalysis.ipynb
+
+### 6. **Usage Instructions**
+
+Provide example inputs and outputs so users understand how to use your project.
+
+```markdown
+## Usage
+
+1. Enter a sample text in the input field (if using Streamlit).
+2. Click the "Analyze Sentiment" button.
+3. The app will display whether the sentiment is Positive or Negative.
+## Troubleshooting
+
+- **SSL Verification Error for NLTK Downloads**: If you encounter an SSL verification error, try bypassing SSL verification using the code in the "Download NLTK Data" section.
+- **FileNotFoundError**: Ensure all files (`sentiment_model.pkl`, `vectorizer.pkl`, etc.) are in the correct directory.
+
