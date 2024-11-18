@@ -48,6 +48,19 @@ Here are some examples of inputs and the corresponding outputs from the sentimen
 
 - **Input:** "This is the worst experience."
   - **Output:** "Sentiment: Negative"
+# Sentiment Analysis Project
+
+This project performs sentiment analysis using machine learning and a TF-IDF vectorizer.
+
+## Project Overview
+The aim of this project is to build a machine learning model that can analyze the sentiment of textual data. By using Natural Language Processing (NLP) techniques, this project classifies text into positive and negative sentiments. This is particularly useful for businesses or organizations seeking to understand customer feedback, social media posts, and product reviews at scale.
+
+### Goals and Objectives
+- **Train a Sentiment Analysis Model**: Use a dataset of labeled text data to train a machine learning model that can classify text as positive or negative.
+- **Deploy for Real-World Usage**: The project includes a deployment-ready setup, allowing the model to be used in a live setting through a Streamlit interface.
+- **Optimize Accuracy**: Experiment with different vectorization methods (like TF-IDF) and preprocessing steps to improve the model’s accuracy.
+
+
 
 - **Input:** "I feel great today!"
   - **Output:** "Sentiment: Positive"
