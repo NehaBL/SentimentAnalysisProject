@@ -39,3 +39,18 @@ Provide example inputs and outputs so users understand how to use your project.
 - **SSL Verification Error for NLTK Downloads**: If you encounter an SSL verification error, try bypassing SSL verification using the code in the "Download NLTK Data" section.
 - **FileNotFoundError**: Ensure all files (`sentiment_model.pkl`, `vectorizer.pkl`, etc.) are in the correct directory.
 
+## Examples
+
+Here are some examples of inputs and the corresponding outputs from the sentiment analysis:
+
+- **Input:** "I love this product!"
+  - **Output:** "Sentiment: Positive"
+
+- **Input:** "This is the worst experience."
+  - **Output:** "Sentiment: Negative"
+
+- **Input:** "I feel great today!"
+  - **Output:** "Sentiment: Positive"
+
+- **Input:** "This is so disappointing."
+  - **Output:** "Sentiment: Negative"
