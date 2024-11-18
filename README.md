@@ -24,7 +24,7 @@ To run the Jupyter Notebook:
    ```bash
    jupyter notebook SentimentAnalysis.ipynb
 
-### 6. **Usage Instructions**
+### **Usage Instructions**
 
 Provide example inputs and outputs so users understand how to use your project.
 
