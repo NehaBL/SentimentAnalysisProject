@@ -67,3 +67,23 @@ The aim of this project is to build a machine learning model that can analyze th
 
 - **Input:** "This is so disappointing."
   - **Output:** "Sentiment: Negative"
+## Methodology
+
+This section explains the steps taken to develop the sentiment analysis model, including data preprocessing, feature extraction, and model training.
+
+### 1. Data Collection and Preparation
+The dataset used for training the model contains labeled text data indicating positive or negative sentiment. Each data entry consists of:
+- **Text**: The text input (e.g., product reviews, feedback).
+- **Label**: The sentiment label, either "positive" or "negative."
+
+### 2. Preprocessing
+To improve model accuracy, several preprocessing steps were applied to the text data:
+- **Tokenization**: Splitting text into individual words or tokens.
+- **Stopword Removal**: Removing common words (e.g., "the," "is") that don’t contribute much to sentiment.
+- **Lowercasing**: Converting all text to lowercase to reduce case sensitivity.
+- **Punctuation Removal**: Removing punctuation to focus on meaningful words.
+- **Lemmatization**: Reducing words to their base form (e.g., "running" to "run").
+
+### 3. Feature Extraction using TF-IDF Vectorization
+To convert the text data into a f
+
